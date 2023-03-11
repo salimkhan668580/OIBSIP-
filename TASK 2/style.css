@@ -1,0 +1,92 @@
+@keyframes pop {
+    0%{
+        font-size: 50px;   
+    }
+    25%{
+        font-size: 30px; 
+    }
+    50%{
+        font-size: 20px; 
+    }
+    75%{
+        font-size: 50px;
+    }
+    100%{
+        font-size: 10px;
+    }
+    
+}
+h1{
+    font-weight: bolder;
+    color: white;
+   
+}
+p{
+    color: white;
+}
+
+
+#pic{
+   width: 300px;
+   height: auto;
+  
+}
+#salim{
+    animation-name: pop;
+    animation-duration:1s;
+  
+    
+}
+h4{
+    color: rgb(255, 255, 255) ;
+}
+
+.card{
+   border: 1px solid green !important;
+}
+p{
+    color: green;
+  
+}
+.skill{
+    color:rgba(255, 255, 255, 0.432);
+    padding-top: 30px;
+}
+
+.nav-item{
+   border: 1px solid green;
+   margin-left: 100px;
+
+   
+}
+
+
+@media only screen and (min-width:996px){
+
+    .navbar-nav{
+        margin-left: 100px !important;
+    }
+
+
+
+   
+}
+
+/* ..................................kam k liye............................ */
+@media only screen and (max-width:996px){
+
+    .nav-item{
+        border: none;
+     }
+
+     .navbar-nav{
+        margin-left: 20px;
+    }
+    #pic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+}
+
