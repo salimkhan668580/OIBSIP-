@@ -1,0 +1,58 @@
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0) !important;
+}
+
+h1{
+    font-family: 'baloo-bhai-regular', sans-serif !important;
+    color:#62cbc2;
+   
+}
+p{
+    color:#62cbc2;
+}
+
+#home{
+    margin-left: 558px;
+   
+}
+.nav-item{
+    font-size: 27px;
+}
+
+.nav-link {
+margin-left: 30px;
+
+}
+
+
+.nav-link:hover{
+    border: 1px solid #e2ede8;
+    background-color: #60dbae;
+}
+
+/* ........................................................home.................................................................... */
+.homeImg{
+    margin-top: -665px;
+}
+.yogaClass{
+    font-size: 79px;
+    padding-top: 200px;
+    font-weight: bolder;
+}
+
+
+
+/* ...................................................................card................................................................ */
+.degine{
+height: 408px;
+}
+
+.card1{
+    
+    height: 222px;
+    margin-top: -435px;
+    margin-left: 52px;
+}
