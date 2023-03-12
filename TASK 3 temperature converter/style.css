@@ -1,0 +1,37 @@
+
+body{
+    background-color: cadetblue !important;
+
+}
+
+#rowfirst{
+    margin: auto;
+    width: 60%;
+    border: 3px solid rgb(227, 219, 209);
+    padding: 10px;
+    margin-top: 155px;
+    text-align: center;
+    height: 380px;
+    border-radius: 10px;
+    background-color: rgb(227, 219, 209);
+    box-shadow: 10px 10px 34px  black;
+
+}
+
+@media only screen and (min-width:996px){
+
+    .container {
+      
+
+        width: 800px !important;
+       
+    }
+   
+}
+
+select {
+    word-wrap: normal;
+    width: 194px;
+    text-align: center;
+    font-weight: bold;
+}
